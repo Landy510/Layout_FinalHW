@@ -1,0 +1,13 @@
+body {
+  font-family: "Zen Kaku Gothic New", PingFang, Microsoft JhengHei, sans-serif;
+  background-color: var(--global-linen-2-color);
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+}
