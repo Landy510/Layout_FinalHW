@@ -4,6 +4,14 @@
   display: flex;
   justify-content: space-between;
 }
+.banner > img {
+  position: absolute;
+  z-index: -1;
+  transform: translate(-50%, -40%);
+  width: 400px;
+  opacity: .3;
+  rotate: -25deg;
+}
 .banner .description {
   display: flex;
   flex-direction: column;
