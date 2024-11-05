@@ -1,0 +1,90 @@
+.banner {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.banner .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+.banner .description > div:first-child {
+  display: flex;
+}
+.banner .description > div:first-child img {
+  display: block;
+  margin-right: 32px;
+  object-fit: cover;
+  width: 150px;
+}
+.banner .description > div:first-child p {
+  flex-grow: 1;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.banner .description > div:first-child p strong {
+  color: var(--global-primary-color);
+}
+.banner .description > p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.banner .description > a {
+  display: inline-flex;
+  align-self: flex-start;
+  position: relative;
+  align-items: center;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 64px;
+  border-radius: 24px;
+  margin-bottom: 24px;
+  border: 1px solid var(--global-black-1-color);
+}
+.banner .description > a img {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+}
+.banner .description > div:nth-of-type(2) p:first-child {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.banner .description > div:nth-of-type(2) p:first-child::before {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin-right: 12px;
+  background-color: var(--global-orange-color);
+}
+.banner .description > div:nth-of-type(2) p:last-child {
+  background-color: #fff;
+  padding: 16px 0;
+}
+.banner .carousel img {
+  border-radius: 12px;
+}
+.banner .carousel .pagination {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 8px;
+}
+.banner .carousel .pagination li {
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--global-primary-color);
+  border-radius: 50%;
+}
+.banner .carousel .pagination li.active {
+  background-color: var(--global-primary-color);
+}

@@ -1,6 +1,7 @@
 header {
   display: flex;
   align-items: center;
+  margin-bottom: 64px;
 }
 header > div:first-child {
   background-color: rgba(var(--global-black-1-color-rgb-code), 0.1);
