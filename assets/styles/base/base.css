@@ -1,6 +1,7 @@
 body {
   font-family: "Zen Kaku Gothic New", PingFang, Microsoft JhengHei, sans-serif;
   background-color: var(--global-linen-2-color);
+  color: var(--global-black-2-color);
   box-sizing: border-box;
 }
 
@@ -10,4 +11,5 @@ img {
 
 a {
   text-decoration: none;
+  color: var(--global-black-2-color);
 }
