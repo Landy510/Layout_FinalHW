@@ -1,6 +1,7 @@
 @import url(variables/variables.css);
 @import url(base/reset.css);
 @import url(base/base.css);
+@import url(base/main.css);
 
 @import url(components/header.css);
 @import url(components/banner.css);
