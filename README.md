@@ -1,10 +1,12 @@
 # Layout_FinalHW
 ## 問題總集
-1. 在 banner 區塊，要將 logo 圖和 文字的高度切齊不太容易，
-需要刻意的手動將高度拉齊。
+**1. 在 banner 區塊，要將 logo 圖和 文字的高度切齊不太容易，
+需要刻意的手動將高度拉齊。**
 <img src="assets/images/README/banner.png" width="400"/>
-2. 客製化 class 和 直接寫在 css 裡面的抉擇:
-e.g.
+
+**2. 客製化 class 和 直接寫在 css 裡面的抉擇?** <br/>
+假設專案裡面以下這個對 img 設定的組合，寫了超過 3 以上，我決定把它改成一個共用的 class:
+
 ```
 img {
   width: 100%;
@@ -12,8 +14,7 @@ img {
   object-fit: cover;
 }
 ```
-以上的 CSS 設定若寫了超過 3 次，我會把它改成一個共用的 class，
-但有兩種客製化的流派 
+**兩種客製化的流派**
 1. atomic css
 ```
 .object-cover {
