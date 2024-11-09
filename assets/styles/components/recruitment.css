@@ -1,0 +1,125 @@
+.recruitment {
+  margin-top: 150px;
+}
+.recruitment .bg-green {
+  background-color: var(--global-primary-color);
+  padding-top: 32px;
+}
+.recruitment .container {
+  max-width: 1200px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+.recruitment .condition-section > .title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.recruitment .condition-section > .title::before {
+  content: "";
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.4em;
+  background-image: url(/assets/images/search.png);
+  background-size: cover;
+}
+.recruitment .condition-section .content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 64px 48px 32px 48px;
+}
+.recruitment .condition-section .content .by-dropdown {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 0.5fr;
+  align-items: stretch;
+  column-gap: 20px;
+  margin-bottom: 32px;
+}
+.recruitment .condition-section .content .by-dropdown button[type="submit"]{
+  color: #fff;
+  background-color: rgb(46, 44, 41);
+  border: none;
+  padding: 1em 1.5em;
+  border-radius: 100px;
+  font-weight: 700;
+}
+
+.recruitment .condition-section .content > .divider {
+  background-color: var(--global-linen-1-color);
+  opacity: 0.2;
+}
+.recruitment .condition-section .content .other-approaches {
+  display: flex;
+}
+.recruitment .condition-section .content .other-approaches .by-hash-tag {
+  width: 60%;
+}
+.recruitment .condition-section .content .other-approaches .by-hash-tag > .title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.recruitment .condition-section .content .other-approaches .by-hash-tag > .title::before {
+  content: "";
+  display: inline-block;
+  margin-right: 4px;
+  width: 0.4em;
+  height: 0.4em;
+  background-color: var(--global-primary-color);
+  border-radius: 50%;
+  transform: translateY(-3px);
+}
+.recruitment .condition-section .content .other-approaches .by-hash-tag > .hash-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.recruitment .condition-section .content .other-approaches .by-hash-tag > .hash-tag-list .hash-tag {
+  border: 1px solid var(--global-linen-3-color);
+  border-radius: 4px;
+  padding: 0 4px;
+  font-weight: 500;
+}
+.recruitment .condition-section .content .other-approaches .by-input {
+  width: 40%;
+}
+.recruitment .condition-section .content .other-approaches .by-input > .title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.recruitment .condition-section .content .other-approaches .by-input > .title::before {
+  content: "";
+  display: inline-block;
+  margin-right: 4px;
+  width: 0.4em;
+  height: 0.4em;
+  background-color: var(--global-primary-color);
+  border-radius: 50%;
+  transform: translateY(-3px);
+}
+.recruitment .condition-section .content .other-approaches .by-input > form {
+  display: flex;
+  border: 1px solid var(--global-linen-3-color);
+  padding: 0.5em;
+  border-radius: 4px;
+}
+.recruitment .condition-section .content .other-approaches .by-input > form input {
+  border: none;
+  flex-grow: 1;
+}
+.recruitment .condition-section .content .other-approaches .by-input > form button {
+  border: none;
+  background-color: transparent;
+}
+.recruitment .condition-section .content .see-more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 500;
+}
+.recruitment .condition-section .content .see-more-btn img {
+  margin-left: 4px;
+}
