@@ -1,46 +1,48 @@
 .banner {
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
-.banner > img {
+.banner > .pic {
   position: absolute;
   z-index: -1;
   transform: translate(-50%, -40%);
-  width: 400px;
+  width: 150px;
   opacity: .3;
   rotate: -25deg;
 }
 .banner .description {
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 48px;
 }
-.banner .description > div:first-child {
+.banner .description .topic {
   display: flex;
+  column-gap: 32px;
+  font-size: 48px;
+  margin-bottom: 1em;
 }
-.banner .description > div:first-child img {
-  display: block;
-  margin-right: 32px;
-  object-fit: cover;
+.banner .description .topic .pic {
   width: 150px;
 }
-.banner .description > div:first-child p {
+.banner .description .topic p {
   flex-grow: 1;
-  font-size: 48px;
   font-weight: 900;
   line-height: 1.2;
 }
-.banner .description > div:first-child p strong {
+.banner .description .topic p strong {
   color: var(--global-primary-color);
 }
-.banner .description > p {
+.banner .description .content {
   font-size: 20px;
   font-weight: 500;
+  margin-bottom: 1.5em;
 }
-.banner .description > a {
+.banner .description .navigate-btn {
   display: inline-flex;
   align-self: flex-start;
   position: relative;
@@ -49,23 +51,23 @@
   font-size: 20px;
   font-weight: 500;
   padding: 8px 64px;
+  margin-bottom: 3em;
   border-radius: 24px;
-  margin-bottom: 24px;
   border: 1px solid var(--global-black-1-color);
 }
-.banner .description > a img {
+.banner .description .navigate-btn img {
   position: absolute;
   top: 50%;
   right: 16px;
   transform: translateY(-50%);
 }
-.banner .description > div:nth-of-type(2) p:first-child {
+.banner .description .condition-section .title {
   font-weight: 500;
   display: flex;
   align-items: center;
   margin-bottom: 12px;
 }
-.banner .description > div:nth-of-type(2) p:first-child::before {
+.banner .description .condition-section .title::before {
   content: "";
   display: block;
   border-radius: 50%;
@@ -74,17 +76,28 @@
   margin-right: 12px;
   background-color: var(--global-orange-color);
 }
-.banner .description > div:nth-of-type(2) p:last-child {
+.banner .description .condition-section .condition-list {
   background-color: #fff;
-  padding: 16px 0;
+  padding: 8px 0;
+  display: flex;
+  column-gap: 12px;
 }
-.banner .carousel img {
-  border-radius: 12px;
+.banner .carousel {
+  width: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.banner .carousel > .pic {
+  width: fit-content;
+}
+.banner .carousel > .pic img {
+  border-radius: 8px;
 }
 .banner .carousel .pagination {
-  margin-top: 16px;
   display: flex;
-  justify-content: flex-end;
   column-gap: 8px;
 }
 .banner .carousel .pagination li {

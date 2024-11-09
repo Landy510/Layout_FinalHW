@@ -1,0 +1,9 @@
+.object-cover {
+  object-fit: cover;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
