@@ -24,7 +24,7 @@
   width: 1.5em;
   height: 1.5em;
   margin-right: 0.4em;
-  background-image: url(/assets/images/search.png);
+  background-image: url(../../images/search.png);
   background-size: cover;
 }
 .recruitment .condition-section .content {
