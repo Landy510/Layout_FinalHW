@@ -10,9 +10,8 @@
   padding: 0 80px;
   margin: 0 auto;
 }
-.recruitment .container-no-padding {
-  max-width: 1200px;
-  margin: 0 auto;
+.recruitment .condition-section {
+  margin-bottom: 64px;
 }
 .recruitment .condition-section > .title {
   color: #fff;
@@ -118,4 +117,76 @@
 }
 .recruitment .condition-section .content .see-more-btn img {
   margin-left: 4px;
+}
+.recruitment .device-section > .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(var(--global-linen-3-color-rgb-code), 0.3);
+}
+.recruitment .device-section > .title .topic {
+  display: flex;
+  align-items: center;
+}
+.recruitment .device-section > .title .topic img {
+  margin-right: 8px;
+}
+.recruitment .device-section > .title .topic h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.recruitment .device-section > .title .content {
+  font-weight: 700;
+}
+.recruitment .device-section > .title > .btn-bg-white {
+  font-size: 16px;
+  margin: auto 0;
+  padding: 12px 40px;
+}
+.recruitment .device-section .device-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 32px;
+  row-gap: 48px;
+  padding-top: 32px;
+}
+.recruitment .device-section .device-list .device {
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 24px;
+}
+.recruitment .device-section .device-list .device > .pic img {
+  margin-bottom: 8px;
+}
+.recruitment .device-section .device-list .device > .title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.recruitment .device-section .device-list .device > .location p:first-child {
+  margin-bottom: 8px;
+}
+.recruitment .device-section .device-list .device > .location p:last-child {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.recruitment .device-section .device-list .device .hash-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+.recruitment .device-section .device-list .device .hash-tag-list .hash-tag {
+  border: 1px solid var(--global-linen-3-color);
+  border-radius: 4px;
+  padding: 0 4px;
+  font-weight: 500;
+  font-size: 12px;
+}
+.recruitment .device-section .device-list .device .publish-time {
+  font-size: 12px;
+  font-weight: 500;
 }
