@@ -10,6 +10,10 @@
   padding: 0 80px;
   margin: 0 auto;
 }
+.recruitment .container-no-padding {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .recruitment .condition-section > .title {
   color: #fff;
   font-size: 32px;
@@ -38,14 +42,6 @@
   align-items: stretch;
   column-gap: 20px;
   margin-bottom: 32px;
-}
-.recruitment .condition-section .content .by-dropdown button[type="submit"]{
-  color: #fff;
-  background-color: rgb(46, 44, 41);
-  border: none;
-  padding: 1em 1.5em;
-  border-radius: 100px;
-  font-weight: 700;
 }
 
 .recruitment .condition-section .content > .divider {
