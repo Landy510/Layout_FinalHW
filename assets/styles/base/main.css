@@ -7,3 +7,8 @@
 .h-full {
   height: 100%;
 }
+.container {
+  max-width: 1200px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
