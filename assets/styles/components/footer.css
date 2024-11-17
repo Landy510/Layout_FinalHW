@@ -89,14 +89,17 @@ footer .navigation-section .info .media .sns-info span {
 footer .navigation-section .info .media .sns-info .icon {
     width: 48px;
     height: 48px;
-    border: 1px solid #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
-    text-align: center;
-    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
 }
 footer .navigation-section .info .media .navigate-btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
     background-color: var(--global-primary-color);
     width: 100%;
@@ -104,6 +107,9 @@ footer .navigation-section .info .media .navigate-btn {
     text-align: center;
     border-radius: 100px;
     font-weight: 700;
+}
+footer .navigation-section .info .media .navigate-btn img {
+  margin-right: 8px;
 }
 footer .navigation-section .info .condition-section a {
     color: #fff;
@@ -114,13 +120,14 @@ footer .navigation-section .info .condition-section > p {
 }
 footer .navigation-section .info .condition-section .condition-list {
     display: grid;
-    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
 footer .navigation-section .info .condition-section .condition-list .condition > p {
     margin-bottom: 1em;
     display: flex;
     align-items: center;
+    font-weight: 700;
 }
 footer .navigation-section .info .condition-section .condition-list .condition > p::before {
     content: "";
@@ -134,12 +141,39 @@ footer .navigation-section .info .condition-section .condition-list .condition >
 footer .navigation-section .info .condition-section .condition-list .condition ul {
     display: grid;
     grid: repeat(6, auto) / auto-flow;
-    row-gap: 13px;
+    gap: 13px;
+    width: fit-content;
 }
 footer .navigation-section .info .condition-section .condition-list .condition ul a {
     color: rgba(255,255,255,0.3);
     font-size: 14px;
     font-weight: 500;
+}
+footer .navigation-section .info .condition-section .outlier-condition > p {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+footer .navigation-section .info .condition-section .outlier-condition > p::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+footer .navigation-section .info .condition-section .outlier-condition ul {
+  display: grid;
+  grid: repeat(6, auto) / auto-flow;
+  gap: 13px;
+  width: fit-content;
+}
+footer .navigation-section .info .condition-section .outlier-condition ul li a {
+  color: rgba(255,255,255,0.3);
+  font-size: 14px;
+  font-weight: 500;
 }
 footer .company-info {
     padding: 30px 0;
