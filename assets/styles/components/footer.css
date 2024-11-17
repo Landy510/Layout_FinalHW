@@ -37,18 +37,16 @@ footer .wrapper .navigation-section > .topic .search-list{
 }
 footer .wrapper .navigation-section > .topic .search-list a {
     color: #fff;
-    font-size: 20px;
     font-weight: 700;
 }
 footer .wrapper .navigation-section > .topic form {
     display: flex;
-    width: 100%;
 }
 footer .wrapper .navigation-section > .topic form input {
+    flex-grow: 1;
     border: none;
     background-color: rgba(255, 255, 255, .1);
     padding: 0.5em 1em;
-    font-size: 20px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
@@ -116,7 +114,7 @@ footer .navigation-section .info .condition-section > p {
 }
 footer .navigation-section .info .condition-section .condition-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
     gap: 24px;
 }
 footer .navigation-section .info .condition-section .condition-list .condition > p {
@@ -135,10 +133,8 @@ footer .navigation-section .info .condition-section .condition-list .condition >
 }
 footer .navigation-section .info .condition-section .condition-list .condition ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid: repeat(6, auto) / auto-flow;
     row-gap: 13px;
-    /* TODO 讓多餘 6 列的時候，可以自動換到新的 column */
 }
 footer .navigation-section .info .condition-section .condition-list .condition ul a {
     color: rgba(255,255,255,0.3);
