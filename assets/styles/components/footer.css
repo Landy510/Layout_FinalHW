@@ -7,7 +7,11 @@ footer .wrapper {
     max-width: 1320px;
     margin: 0 auto;
 }
-footer .wrapper > .topic {
+footer .wrapper .navigation-section {
+    padding-bottom: 60px;
+    border-bottom: 1px solid var(--global-linen-1-color);
+}
+footer .wrapper .navigation-section > .topic {
     display: grid;
     /* grid-template-columns: 1fr auto 1fr; */
     grid-template-columns: 337px auto 1fr;
@@ -15,32 +19,32 @@ footer .wrapper > .topic {
     column-gap: 72px;
     margin-bottom: 16px;
 }
-footer .wrapper > .topic .title {
+footer .wrapper .navigation-section > .topic .title {
     display: flex;
     align-items: center;
 }
-footer .wrapper > .topic .title .pic {
+footer .wrapper .navigation-section > .topic .title .pic {
     margin-right: 4px;
 }
-footer .wrapper > .topic .title h2 {
+footer .wrapper .navigation-section > .topic .title h2 {
     font-size: 24px;
     font-weight: 700;
 }
-footer .wrapper > .topic .search-list{
+footer .wrapper .navigation-section > .topic .search-list{
     display: flex;
     justify-content: space-between;
     column-gap: 60px;
 }
-footer .wrapper > .topic .search-list a {
+footer .wrapper .navigation-section > .topic .search-list a {
     color: #fff;
     font-size: 20px;
     font-weight: 700;
 }
-footer .wrapper > .topic form {
+footer .wrapper .navigation-section > .topic form {
     display: flex;
     width: 100%;
 }
-footer .wrapper > .topic form input {
+footer .wrapper .navigation-section > .topic form input {
     border: none;
     background-color: rgba(255, 255, 255, .1);
     padding: 0.5em 1em;
@@ -48,10 +52,10 @@ footer .wrapper > .topic form input {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
-footer .wrapper > .topic form input::placeholder {
+footer .wrapper .navigation-section > .topic form input::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
-footer .wrapper > .topic form button {
+footer .wrapper .navigation-section > .topic form button {
     border: none;
     background-color: rgba(255, 255, 255, .1);
     padding: 0.5em 1em;
@@ -61,7 +65,7 @@ footer .wrapper > .topic form button {
     display: inline-flex;
     align-items: center;
 }
-footer .footer-text {
+footer .navigation-section .footer-text {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 4px;
@@ -70,21 +74,21 @@ footer .footer-text {
     padding: 0.5em 1em;
     margin-bottom: 16px;
 }
-footer .info {
+footer .navigation-section .info {
     display: grid;
     grid-template-columns: 337px 1fr;
     column-gap: 72px;
 }
-footer .info .media .sns-info {
+footer .navigation-section .info .media .sns-info {
     display: flex;
     align-items: center;
     column-gap: 16px;
     margin: 48px 0;
 }
-footer .info .media .sns-info span {
+footer .navigation-section .info .media .sns-info span {
     font-weight: 700;
 }
-footer .info .media .sns-info .icon {
+footer .navigation-section .info .media .sns-info .icon {
     width: 48px;
     height: 48px;
     border: 1px solid #fff;
@@ -93,7 +97,7 @@ footer .info .media .sns-info .icon {
     line-height: 48px;
     color: #fff;
 }
-footer .info .media .navigate-btn {
+footer .navigation-section .info .media .navigate-btn {
     display: block;
     color: #fff;
     background-color: var(--global-primary-color);
@@ -103,24 +107,24 @@ footer .info .media .navigate-btn {
     border-radius: 100px;
     font-weight: 700;
 }
-footer .info .condition-section a {
+footer .navigation-section .info .condition-section a {
     color: #fff;
 }
-footer .info .condition-section > p {
+footer .navigation-section .info .condition-section > p {
     margin-bottom: 32px;
     font-weight: 700;
 }
-footer .info .condition-section .condition-list {
+footer .navigation-section .info .condition-section .condition-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
-footer .info .condition-section .condition-list .condition > p {
+footer .navigation-section .info .condition-section .condition-list .condition > p {
     margin-bottom: 1em;
     display: flex;
     align-items: center;
 }
-footer .info .condition-section .condition-list .condition > p::before {
+footer .navigation-section .info .condition-section .condition-list .condition > p::before {
     content: "";
     display: block;
     width: 4px;
@@ -129,14 +133,31 @@ footer .info .condition-section .condition-list .condition > p::before {
     border-radius: 50%;
     background-color: #fff;
 }
-footer .info .condition-section .condition-list .condition ul {
+footer .navigation-section .info .condition-section .condition-list .condition ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     row-gap: 13px;
+    /* TODO 讓多餘 6 列的時候，可以自動換到新的 column */
 }
-footer .info .condition-section .condition-list .condition ul a {
+footer .navigation-section .info .condition-section .condition-list .condition ul a {
     color: rgba(255,255,255,0.3);
     font-size: 14px;
     font-weight: 500;
+}
+footer .company-info {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+footer .company-info ul {
+    display: flex;
+    column-gap: 1em;
+}
+footer .company-info ul li a {
+    color: #fff;
+}
+footer .company-info p {
+    margin-left: auto;
+    color: rgba(255, 255, 255, 0.3);
 }
