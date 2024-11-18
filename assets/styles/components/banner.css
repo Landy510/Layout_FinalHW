@@ -35,7 +35,7 @@
   line-height: 1.2;
 }
 .banner .description .topic p strong {
-  color: var(--global-primary-color);
+  color: var(--color-green_1);
 }
 .banner .description .content {
   font-size: 20px;
@@ -47,13 +47,13 @@
   align-self: flex-start;
   position: relative;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--color-white);
   font-size: 20px;
   font-weight: 500;
   padding: 8px 64px;
   margin-bottom: 3em;
   border-radius: 24px;
-  border: 1px solid var(--global-black-1-color);
+  border: 1px solid var(--color-background_3);
 }
 .banner .description .navigate-btn img {
   position: absolute;
@@ -74,10 +74,10 @@
   width: 8px;
   height: 8px;
   margin-right: 12px;
-  background-color: var(--global-orange-color);
+  background-color: var(--color-orenge);
 }
 .banner .description .condition-section .condition-list {
-  background-color: #fff;
+  background-color: var(--color-white);
   padding: 8px 0;
   display: flex;
   column-gap: 12px;
@@ -103,9 +103,9 @@
 .banner .carousel .pagination li {
   width: 12px;
   height: 12px;
-  border: 1px solid var(--global-primary-color);
+  border: 1px solid var(--color-green_1);
   border-radius: 50%;
 }
 .banner .carousel .pagination li.active {
-  background-color: var(--global-primary-color);
+  background-color: var(--color-green_1);
 }

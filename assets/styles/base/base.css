@@ -3,8 +3,8 @@
 }
 body {
   font-family: "Zen Kaku Gothic New", PingFang, Microsoft JhengHei, sans-serif;
-  background-color: var(--global-linen-2-color);
-  color: var(--global-black-2-color);
+  background-color: var(--color-background_1);
+  color: var(--color-black);
 }
 
 img {
@@ -13,12 +13,12 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--global-black-2-color);
+  color: var(--color-black);
 }
 
 select {
-  background-color: rgb(245, 244, 234);
-  color: rgb(102, 102, 102);
+  background-color: var(--color-background_1);
+  color:var(--color-gray_1);
   font-weight: 900;
   border: none;
   padding: 1em 1.5em;

@@ -1,6 +1,6 @@
 footer {
-    background-color: var(--global-black-2-color);
-    color: #fff;
+    background-color: var(--color-black);
+    color: var(--color-white);
     padding-top: 80px;
 }
 footer .wrapper {
@@ -9,7 +9,7 @@ footer .wrapper {
 }
 footer .wrapper .navigation-section {
     padding-bottom: 60px;
-    border-bottom: 1px solid var(--global-linen-1-color);
+    border-bottom: 1px solid var(--color-line_4);
 }
 footer .wrapper .navigation-section > .topic {
     display: grid;
@@ -36,7 +36,7 @@ footer .wrapper .navigation-section > .topic .search-list{
     column-gap: 60px;
 }
 footer .wrapper .navigation-section > .topic .search-list a {
-    color: #fff;
+    color: var(--color-white);
     font-weight: 700;
 }
 footer .wrapper .navigation-section > .topic form {
@@ -45,17 +45,17 @@ footer .wrapper .navigation-section > .topic form {
 footer .wrapper .navigation-section > .topic form input {
     flex-grow: 1;
     border: none;
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(var(--color-white_rgb), .1);
     padding: 0.5em 1em;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
 footer .wrapper .navigation-section > .topic form input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(var(--color-white_rgb), 0.5);
 }
 footer .wrapper .navigation-section > .topic form button {
     border: none;
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(var(--color-white_rgb), .1);
     padding: 0.5em 1em;
     font-size: 20px;
     border-top-right-radius: 8px;
@@ -65,9 +65,9 @@ footer .wrapper .navigation-section > .topic form button {
 }
 footer .navigation-section .footer-text {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(var(--color-white_rgb), 0.1);
     border-radius: 4px;
-    color: #fff;
+    color: var(--color-white);
     font-size: 12px;
     padding: 0.5em 1em;
     margin-bottom: 16px;
@@ -89,19 +89,19 @@ footer .navigation-section .info .media .sns-info span {
 footer .navigation-section .info .media .sns-info .icon {
     width: 48px;
     height: 48px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(var(--color-white_rgb), 0.2);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: var(--color-white);
 }
 footer .navigation-section .info .media .navigate-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    background-color: var(--global-primary-color);
+    color: var(--color-white);
+    background-color: var(--color-green_1);
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -112,7 +112,7 @@ footer .navigation-section .info .media .navigate-btn img {
   margin-right: 8px;
 }
 footer .navigation-section .info .condition-section a {
-    color: #fff;
+    color: var(--color-white);
 }
 footer .navigation-section .info .condition-section > p {
     margin-bottom: 32px;
@@ -136,7 +136,7 @@ footer .navigation-section .info .condition-section .condition-list .condition >
     height: 4px;
     margin-right: 4px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 footer .navigation-section .info .condition-section .condition-list .condition ul {
     display: grid;
@@ -145,7 +145,7 @@ footer .navigation-section .info .condition-section .condition-list .condition u
     width: fit-content;
 }
 footer .navigation-section .info .condition-section .condition-list .condition ul a {
-    color: rgba(255,255,255,0.3);
+    color: rgba(var(--color-white_rgb), 0.3);
     font-size: 14px;
     font-weight: 500;
 }
@@ -162,7 +162,7 @@ footer .navigation-section .info .condition-section .outlier-condition > p::befo
   height: 4px;
   margin-right: 4px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 footer .navigation-section .info .condition-section .outlier-condition ul {
   display: grid;
@@ -171,7 +171,7 @@ footer .navigation-section .info .condition-section .outlier-condition ul {
   width: fit-content;
 }
 footer .navigation-section .info .condition-section .outlier-condition ul li a {
-  color: rgba(255,255,255,0.3);
+  color: rgba(var(--color-white_rgb), 0.3);
   font-size: 14px;
   font-weight: 500;
 }
@@ -185,9 +185,9 @@ footer .company-info ul {
     column-gap: 1em;
 }
 footer .company-info ul li a {
-    color: #fff;
+    color: var(--color-white);
 }
 footer .company-info p {
     margin-left: auto;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(var(--color-white_rgb), 0.3);
 }

@@ -3,12 +3,12 @@
   align-self: flex-start;
   position: relative;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--color-white);
   font-size: 20px;
   font-weight: 700;
   padding: 12px 18px;
   border-radius: 100px;
-  border: 1px solid var(--global-black-1-color);
+  border: 1px solid var(--color-background_3);
 }
 .btn-bg-white::after {
   content: "";
@@ -24,8 +24,8 @@
   background-size: cover;
 }
 .btn-bg-black {
-  color: #fff;
-  background-color: rgb(46, 44, 41);
+  color: var(--color-white);
+  background-color: var(--color-black_2);
   border: none;
   padding: 1em 1.5em;
   border-radius: 100px;

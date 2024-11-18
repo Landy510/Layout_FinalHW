@@ -2,7 +2,7 @@
   margin-top: 150px;
 }
 .recruitment .bg-green {
-  background-color: var(--global-primary-color);
+  background-color: var(--color-green_1);
   padding-top: 32px;
   padding-bottom: 320px;
 }
@@ -10,7 +10,7 @@
   margin-bottom: 64px;
 }
 .recruitment .condition-section > .title {
-  color: #fff;
+  color: var(--color-white);
   font-size: 32px;
   font-weight: 700;
   display: flex;
@@ -27,7 +27,7 @@
   background-size: cover;
 }
 .recruitment .condition-section .content {
-  background-color: #fff;
+  background-color: var(--color-white);
   border-radius: 8px;
   padding: 64px 48px 32px 48px;
 }
@@ -40,7 +40,7 @@
 }
 
 .recruitment .condition-section .content > .divider {
-  background-color: var(--global-linen-1-color);
+  background-color: var(--color-line_4);
   opacity: 0.2;
 }
 .recruitment .condition-section .content .other-approaches {
@@ -59,7 +59,7 @@
   margin-right: 4px;
   width: 0.4em;
   height: 0.4em;
-  background-color: var(--global-primary-color);
+  background-color: var(--color-green_1);
   border-radius: 50%;
   transform: translateY(-3px);
 }
@@ -69,7 +69,7 @@
   gap: 8px;
 }
 .recruitment .condition-section .content .other-approaches .by-hash-tag > .hash-tag-list .hash-tag {
-  border: 1px solid var(--global-linen-3-color);
+  border: 1px solid var(--color-background_6);
   border-radius: 4px;
   padding: 0 4px;
   font-weight: 500;
@@ -87,13 +87,13 @@
   margin-right: 4px;
   width: 0.4em;
   height: 0.4em;
-  background-color: var(--global-primary-color);
+  background-color: var(--color-green_1);
   border-radius: 50%;
   transform: translateY(-3px);
 }
 .recruitment .condition-section .content .other-approaches .by-input > form {
   display: flex;
-  border: 1px solid var(--global-linen-3-color);
+  border: 1px solid var(--color-background_6);
   padding: 0.5em;
   border-radius: 4px;
 }
@@ -118,9 +118,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color: var(--color-white);
   padding-bottom: 32px;
-  border-bottom: 1px solid rgba(var(--global-linen-3-color-rgb-code), 0.3);
+  border-bottom: 1px solid rgba(var(--color-background_6), 0.3);
 }
 .recruitment .device-section > .title .topic {
   display: flex;
@@ -150,7 +150,7 @@
 }
 .recruitment .device-section .device-list .device {
   border-radius: 8px;
-  background-color: #fff;
+  background-color: var(--color-white);
   padding: 24px;
 }
 .recruitment .device-section .device-list .device > .pic {
@@ -163,10 +163,10 @@
   position: absolute;
   top: 16px;
   left: 16px;
-  background-color: rgb(234, 125, 62);
+  background-color: var(--color-orenge);
   border-radius: 4px;
   padding: 4px 8px;
-  color: #fff;
+  color: var(--color-white);
   font-size: 12px;
 }
 .recruitment .device-section .device-list .device > .title {
@@ -189,7 +189,7 @@
   margin-bottom: 8px;
 }
 .recruitment .device-section .device-list .device .hash-tag-list .hash-tag {
-  border: 1px solid var(--global-linen-3-color);
+  border: 1px solid var(--color-background_6);
   border-radius: 4px;
   padding: 0 4px;
   font-weight: 500;
@@ -203,14 +203,14 @@
   margin-top: -224px;
 }
 .recruitment .highlight-job-section > .container {
-  background-color: #fff;
+  background-color: var(--color-white);
   padding-top: 96px;
   padding-bottom: 96px;
   border-radius: 16px;
 }
 .recruitment .highlight-job-section .device-section > .title {
-  color: var(--global-black-2-color);
-  border-bottom: 1px solid rgb(232, 231, 209);
+  color: var(--color-black);
+  border-bottom: 1px solid var(--color-background_2);
 }
 .recruitment .highlight-job-section .device-section > .title .topic {
   display: flex;
@@ -218,7 +218,7 @@
 }
 .recruitment .highlight-job-section .device-section > .title .topic span {
   font-size: 12px;
-  color: var(--global-primary-color);
+  color: var(--color-green_1);
   margin-left: 0.5em;
   margin-right: auto;
   font-weight: 700;
@@ -227,12 +227,12 @@
   padding: 0;
 }
 .recruitment .highlight-job-section .device-section .device-list .device > .pic .badge {
-  background-color: var(--global-primary-color);
+  background-color: var(--color-green_1);
 }
 .recruitment .highlight-job-section .device-section .device-list .device .job-type {
   display: inline-block;
-  background-color: rgb(231, 231, 205);
-  color: rgb(102, 102, 102);
+  background-color: var(--color-tag);
+  color: var(--color-gray_1);
   border-radius: 100px;
   padding: 4px 8px;
   font-size: 12px;

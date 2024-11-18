@@ -1,18 +1,63 @@
 :root {
-  --global-primary-color: rgb(51, 135, 81);
-  --global-orange-color: rgb(234, 125, 62);
-  --global-black-1-color: rgb(59, 62, 52);
-  --global-black-2-color: rgb(46, 46, 46);
-  --global-linen-1-color: rgb(219, 219, 196);
-  --global-linen-2-color: rgb(245, 244, 234);
-  --global-linen-3-color: rgb(237, 236, 215);
+  /* --global-primary-color: rgb(51, 135, 81); */
+  /* --global-orange-color: rgb(234, 125, 62); */
+  /* --global-black-1-color: rgb(59, 62, 52); */
+  /* --global-black-2-color: rgb(46, 46, 46); */
+  /* --global-linen-1-color: rgb(219, 219, 196); */
+  /* --global-linen-2-color: rgb(245, 244, 234); */
+  /* --global-linen-3-color: rgb(237, 236, 215); */
 
-  --global-primary-color-rgb-code: 51, 135, 81;
-  --global-orange-color-rgb-code: 234, 125, 62;
-  --global-black-1-color-rgb-code: 59, 62, 52;
-  --global-black-2-color-rgb-code: 46, 46, 46;
-  --global-linen-1-color-rgb-code: 219, 219, 196;
-  --global-linen-2-color-rgb-code: 245, 244, 234;
-  --global-linen-3-color-rgb-code: 237, 236, 215;
+  /* --global-primary-color: 51, 135, 81; */
+  /* --global-orange-color-rgb-code: 234, 125, 62; */
+  /* --global-black-1-color-rgb-code: 59, 62, 52; */
+  /* --global-black-2-color-rgb-code: 46, 46, 46; */
+  /* --global-linen-1-color-rgb-code: 219, 219, 196; */
+  /* --global-linen-2-color-rgb-code: 245, 244, 234; */
+  /* --global-linen-3-color-rgb-code: 237, 236, 215; */
 
+
+  /* ---  */
+  --color-white: #fff;
+  --color-white_rgb: 255, 255, 255;
+  --color-black: #2e2e2e;
+  --color-black_rgb: 34, 34, 34;
+  --color-black_2: #2e2c29;
+  --color-gray_1: #666;
+  --color-gray_2: #8a8a8a;
+  --color-gray_2_rgb: 138, 138, 138;
+  --color-green_1: #338751;
+  --color-green_1_rgb: 51, 135, 81;
+  --color-green_2: #13913a;
+  --color-green_hover: #3fa661;
+  --color-orenge: #ea7d3e;
+  --color-orenge_hover: #fc9856;
+  --color-red: #e24f3b;
+  --color-background_1: #f5f4ea;
+  --color-background_2: #e8e7d1;
+  --color-background_3: #3b3e34;
+  --color-background_3_rgb: 59, 62, 52;
+  --color-background_4: #f2f2e9;
+  --color-background_5: #eae9d7;
+  --color-background_6: #edecd7;
+  --color-background_facility: #ebeada;
+  --color-background_refine: #faf9f2;
+  --color-tag: #e7e7cd;
+  --color-tag_2: #e2e2c1;
+  --color-line_1: #e1e1d0;
+  --color-line_2: #cacaa5;
+  --color-line_3: #e8e7d1;
+  --color-line_4: #dbdbc4;
+  --color-line_5: #e6e6e6;
+  --color-line_header: #ebebeb;
+  --color-line_footer: #4a4a4a;
+  --color-refine: #bababa;
+  --color-form: #ebebeb;
+  --color-form-confirm: #f5f5f5;
+  --color-login: #f1f1f1;
+  --color-message: #f0f0f0;
+  --color-message-viewer: #b2d7bd;
+  --color-speech: #f9f8f0;
+  --color-line: #06c755;
+  --color-facebook: #0866ff;
+  --color-google: #db4437;
 }

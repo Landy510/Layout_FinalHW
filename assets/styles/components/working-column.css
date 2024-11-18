@@ -5,9 +5,9 @@
     display: flex;    
     align-items: center;
     padding-bottom: 32px;
-    color: var(--global-black-2-color);
+    color: var(--color-black);
     font-weight: 700;
-    border-bottom: 1px solid rgb(232, 231, 209);
+    border-bottom: 1px solid var(--color-background_2);
 }
 .working-column-section .container > .title .topic {
     margin-right: 16px;
@@ -16,7 +16,7 @@
     font-size: 32px;
 }
 .working-column-section .container > .title .topic span {
-    color: var(--global-primary-color);
+    color: var(--color-green_1);
     font-size: 12px;
     margin-left: 0.5em;
 }
@@ -42,8 +42,8 @@
 }
 .working-column-section .container .column-list .column .job-type {
     display: inline-block;
-    color: var(--global-primary-color);
-    border: 1px solid var(--global-primary-color);
+    color: var(--color-green_1);
+    border: 1px solid var(--color-green_1);
     border-radius: 100px;
     padding: 2px 12px;
     font-size: 12px;
@@ -64,5 +64,5 @@
     flex-wrap: wrap;
     gap: 1em;
     font-size: 12px;
-    color: rgb(102, 102, 102);
+    color: var(--color-gray_1);
 }

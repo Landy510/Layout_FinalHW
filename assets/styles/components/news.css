@@ -4,7 +4,7 @@
     position: relative;
 }
 .news-section > .bg-cover {
-    background-color: var(--global-linen-3-color);
+    background-color: var(--color-background_6);
     position: absolute;
     left: 96px;
     right: 0;
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     column-gap: 16px;
-    background-color: var(--global-linen-3-color);
+    background-color: var(--color-background_6);
     padding-top: 96px;
     padding-bottom: 48px;
     border-top-left-radius: 16px;
@@ -28,12 +28,12 @@
 .news-section .container > .topic .title {
     display: flex;    
     flex-direction: column;
-    color: var(--global-black-2-color);
+    color: var(--color-black);
     font-weight: 700;
     margin-bottom: 1em;
 }
 .news-section .container > .topic .title span {
-    color: var(--global-primary-color);
+    color: var(--color-green_1);
     font-size: 12px;
     margin-left: 0.5em;
     margin-bottom: 1em;
@@ -57,14 +57,14 @@
 }
 .news-section .container .news-list {
     flex-grow: 1;
-    border-top: 1px solid var(--global-linen-1-color);
+    border-top: 1px solid var(--color-line_4);
 }
 .news-section .container .news-list .news a {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    border-bottom: 1px solid var(--global-linen-1-color);
+    border-bottom: 1px solid var(--color-line_4);
 }
 .news-section .container .news-list .news a .info time {
     display: block;
