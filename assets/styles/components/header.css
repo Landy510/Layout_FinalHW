@@ -88,10 +88,12 @@ header > div:nth-child(2) > div:nth-of-type(2) img {
 }
 header > a {
   display: block;
-  padding: 32px;
+  padding: 24px;
   text-align: center;
   background-color: var(--color-orenge);
   color: var(--color-white);
+  font-size: 14px;
+  border-bottom-left-radius: 4px;
 }
 header > a span {
   display: block;

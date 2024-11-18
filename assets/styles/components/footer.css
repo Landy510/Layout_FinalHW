@@ -142,7 +142,6 @@ footer .navigation-section .info .condition-section .condition-list .condition u
     display: grid;
     grid: repeat(6, auto) / auto-flow;
     gap: 13px;
-    width: fit-content;
 }
 footer .navigation-section .info .condition-section .condition-list .condition ul a {
     color: rgba(var(--color-white_rgb), 0.3);
