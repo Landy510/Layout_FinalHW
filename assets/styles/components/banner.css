@@ -76,11 +76,24 @@
   margin-right: 12px;
   background-color: var(--color-orenge);
 }
-.banner .description .condition-section .condition-list {
-  background-color: var(--color-white);
+.banner .description .condition-section .condition-list-section {
+  width: 500px;
   padding: 8px 0;
+  background-color: var(--color-white);
+  overflow-x: hidden;
+}
+.banner .description .condition-section .condition-list {
+  width: max-content;
   display: flex;
-  column-gap: 12px;
+  animation: infiniteScroll 10s linear infinite;
+}
+.banner .description .condition-section .condition-list li {
+  flex-shrink: 0;
+  padding-right: 8px;
+}
+@keyframes infiniteScroll {
+  0% {transform: translateX(0%);}
+  100% {transform: translateX(-50%);}
 }
 .banner .carousel {
   width: 0;
