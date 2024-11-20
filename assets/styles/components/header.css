@@ -3,7 +3,7 @@ header {
   align-items: center;
   margin-bottom: 64px;
 }
-header > div:first-child {
+header > .description {
   background-color: rgba(var(--color-background_3_rgb), 0.1);
   border: 1px solid rgba(var(--color-background_3_rgb), 0.2);
   padding: 10px;
@@ -12,13 +12,13 @@ header > div:first-child {
   font-size: 14px;
   font-weight: 500;
 }
-header > div:nth-child(2) {
+header > .action-panel {
   display: grid;
   grid-template-columns: repeat(2, auto);
   align-items: center;
   margin-left: auto;
 }
-header > div:nth-child(2) > div:first-child {
+header > .action-panel > .company-wishlist {
   display: flex;
   justify-content: space-between;
   grid-column-start: 2;
@@ -26,20 +26,20 @@ header > div:nth-child(2) > div:first-child {
   align-self: self-end;
   margin: 0 40px 8px 40px;
 }
-header > div:nth-child(2) > div:first-child a {
+header > .action-panel > .company-wishlist a {
   display: flex;
   align-items: center;
   font-size: 12px;
   font-weight: 500;
 }
-header > div:nth-child(2) > div:first-child a img {
+header > .action-panel > .company-wishlist a img {
   margin-right: 6px;
 }
-header > div:nth-child(2) > div:first-child a:first-child {
+header > .action-panel > .company-wishlist a:first-child {
   position: relative;
   color: var(--color-green_1);
 }
-header > div:nth-child(2) > div:first-child a:first-child::after {
+header > .action-panel > .company-wishlist a:first-child::after {
   content: "";
   position: absolute;
   right: -12px;
@@ -47,24 +47,24 @@ header > div:nth-child(2) > div:first-child a:first-child::after {
   width: 2px;
   background-color: var(--color-background_6);
 }
-header > div:nth-child(2) > nav {
+header > .action-panel > nav {
   display: flex;
   column-gap: 20px;
 }
-header > div:nth-child(2) > nav a {
+header > .action-panel > nav a {
   display: block;
   padding: 10px 0;
   font-size: 14px;
   font-weight: 700;
 }
-header > div:nth-child(2) > div:nth-of-type(2){
+header > .action-panel > .user-management{
   display: flex;
   background-color: var(--color-white);
   margin: 0 40px;
   border-radius: 4px;
   border: 3px solid var(--color-line_4);
 }
-header > div:nth-child(2) > div:nth-of-type(2) span {
+header > .action-panel > .user-management span {
   display: flex;
   align-items: center;
   padding: 8px;
@@ -72,10 +72,10 @@ header > div:nth-child(2) > div:nth-of-type(2) span {
   font-weight: 500;
   font-size: 14px;
 }
-header > div:nth-child(2) > div:nth-of-type(2) span:first-child {
+header > .action-panel > .user-management span:first-child {
   position: relative;
 }
-header > div:nth-child(2) > div:nth-of-type(2) span:first-child::after {
+header > .action-panel > .user-management span:first-child::after {
   content: "";
   position: absolute;
   right: 0;
@@ -83,7 +83,7 @@ header > div:nth-child(2) > div:nth-of-type(2) span:first-child::after {
   width: 2px;
   background-color: var(--color-line_4);
 }
-header > div:nth-child(2) > div:nth-of-type(2) img {
+header > .action-panel > .user-management img {
   margin-right: 6px;
 }
 header > a {
