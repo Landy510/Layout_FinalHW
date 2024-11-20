@@ -1,0 +1,5 @@
+.global-bg-pic {
+  position: absolute;
+  z-index: -1;
+  transform: translateX(-30vw);
+}
