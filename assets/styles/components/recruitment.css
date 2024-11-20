@@ -114,7 +114,7 @@
 .recruitment .condition-section .content .see-more-btn img {
   margin-left: 4px;
 }
-.recruitment .device-section > .title {
+.recruitment .facility-section > .title {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -122,44 +122,44 @@
   padding-bottom: 32px;
   border-bottom: 1px solid rgba(var(--color-background_6_rgb), 0.3);
 }
-.recruitment .device-section > .title .topic {
+.recruitment .facility-section > .title .topic {
   display: flex;
   align-items: center;
 }
-.recruitment .device-section > .title .topic img {
+.recruitment .facility-section > .title .topic img {
   margin-right: 8px;
 }
-.recruitment .device-section > .title .topic h2 {
+.recruitment .facility-section > .title .topic h2 {
   font-size: 32px;
   font-weight: 700;
 }
-.recruitment .device-section > .title .content {
+.recruitment .facility-section > .title .content {
   font-weight: 700;
 }
-.recruitment .device-section > .title > .btn-bg-white {
+.recruitment .facility-section > .title > .btn-bg-white {
   font-size: 16px;
   margin: auto 0;
   padding: 12px 40px;
 }
-.recruitment .device-section .device-list {
+.recruitment .facility-section .card-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 32px;
   row-gap: 48px;
   padding-top: 32px;
 }
-.recruitment .device-section .device-list .device {
+.recruitment .facility-section .card-list .card {
   border-radius: 8px;
   background-color: var(--color-white);
   padding: 24px;
 }
-.recruitment .device-section .device-list .device > .pic {
+.recruitment .facility-section .card-list .card > .pic {
   position: relative;
 }
-.recruitment .device-section .device-list .device > .pic img {
+.recruitment .facility-section .card-list .card > .pic img {
   margin-bottom: 8px;
 }
-.recruitment .device-section .device-list .device > .pic .badge {
+.recruitment .facility-section .card-list .card > .pic .badge {
   position: absolute;
   top: 16px;
   left: 16px;
@@ -169,33 +169,33 @@
   color: var(--color-white);
   font-size: 12px;
 }
-.recruitment .device-section .device-list .device > .title {
+.recruitment .facility-section .card-list .card > .title {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 8px;
 }
-.recruitment .device-section .device-list .device > .location p:first-child {
+.recruitment .facility-section .card-list .card > .location p:first-child {
   margin-bottom: 8px;
 }
-.recruitment .device-section .device-list .device > .location p:last-child {
+.recruitment .facility-section .card-list .card > .location p:last-child {
   font-size: 12px;
   font-weight: 500;
   margin-bottom: 8px;
 }
-.recruitment .device-section .device-list .device .hash-tag-list {
+.recruitment .facility-section .card-list .card .hash-tag-list {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
   margin-bottom: 8px;
 }
-.recruitment .device-section .device-list .device .hash-tag-list .hash-tag {
+.recruitment .facility-section .card-list .card .hash-tag-list .hash-tag {
   border: 1px solid var(--color-background_6);
   border-radius: 4px;
   padding: 0 4px;
   font-weight: 500;
   font-size: 12px;
 }
-.recruitment .device-section .device-list .device .publish-time {
+.recruitment .facility-section .card-list .card .publish-time {
   font-size: 12px;
   font-weight: 500;
 }
@@ -208,28 +208,28 @@
   padding-bottom: 96px;
   border-radius: 16px;
 }
-.recruitment .highlight-job-section .device-section > .title {
+.recruitment .highlight-job-section .facility-section > .title {
   color: var(--color-black);
   border-bottom: 1px solid var(--color-background_2);
 }
-.recruitment .highlight-job-section .device-section > .title .topic {
+.recruitment .highlight-job-section .facility-section > .title .topic {
   display: flex;
   flex-direction: column;
 }
-.recruitment .highlight-job-section .device-section > .title .topic span {
+.recruitment .highlight-job-section .facility-section > .title .topic span {
   font-size: 12px;
   color: var(--color-green_1);
   margin-left: 0.5em;
   margin-right: auto;
   font-weight: 700;
 }
-.recruitment .highlight-job-section .device-section .device-list .device {
+.recruitment .highlight-job-section .facility-section .card-list .card {
   padding: 0;
 }
-.recruitment .highlight-job-section .device-section .device-list .device > .pic .badge {
+.recruitment .highlight-job-section .facility-section .card-list .card > .pic .badge {
   background-color: var(--color-green_1);
 }
-.recruitment .highlight-job-section .device-section .device-list .device .job-type {
+.recruitment .highlight-job-section .facility-section .card-list .card .job-type {
   display: inline-block;
   background-color: var(--color-tag);
   color: var(--color-gray_1);
@@ -240,10 +240,10 @@
   margin: 1em 0;  
 }
 
-.recruitment .highlight-job-section .device-section .device-list .device > .location p {
+.recruitment .highlight-job-section .facility-section .card-list .card > .location p {
   margin-bottom: 8px;
 }
-.recruitment .highlight-job-section .device-section .device-list .device > .location p:not(:first-child) {
+.recruitment .highlight-job-section .facility-section .card-list .card > .location p:not(:first-child) {
   font-size: 12px;
   font-weight: 500;
 }
