@@ -23,7 +23,7 @@
 }
 .banner .description .topic p {
   flex-grow: 1;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.2;
 }
 .banner .description .topic p strong {
@@ -77,11 +77,15 @@
 .banner .description .condition-section .condition-list {
   width: max-content;
   display: flex;
-  animation: infiniteScroll 10s linear infinite;
+  animation: infiniteScroll 5s linear infinite;
 }
 .banner .description .condition-section .condition-list li {
   flex-shrink: 0;
-  padding-right: 8px;
+  padding-right: 12px;
+}
+.banner .description .condition-section .condition-list li a {
+  font-size: 12px;
+  font-weight: 500;
 }
 @keyframes infiniteScroll {
   0% {transform: translateX(0%);}

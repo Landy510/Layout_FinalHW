@@ -1,5 +1,11 @@
 .global-bg-pic {
   position: absolute;
+  left: 0;
+  right: 0;
   z-index: -1;
+  overflow: hidden;
+}
+.global-bg-pic img {
+  width: 2432px;
   transform: translateX(-30vw);
 }
