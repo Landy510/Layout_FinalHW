@@ -13,7 +13,6 @@ footer .wrapper .navigation-section {
 }
 footer .wrapper .navigation-section > .topic {
     display: grid;
-    /* grid-template-columns: 1fr auto 1fr; */
     grid-template-columns: 337px auto 1fr;
     align-items: center;
     column-gap: 72px;
@@ -43,6 +42,7 @@ footer .wrapper .navigation-section > .topic form {
     display: flex;
 }
 footer .wrapper .navigation-section > .topic form input {
+    width: 0;
     flex-grow: 1;
     border: none;
     background-color: rgba(var(--color-white_rgb), .1);
