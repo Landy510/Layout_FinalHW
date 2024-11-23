@@ -69,27 +69,37 @@
   background-color: var(--color-orange);
 }
 .banner .description .condition-section .condition-list-section {
-  width: 500px;
-  padding: 8px 0;
+  height: 2em;
+  width: 50%;
   background-color: var(--color-white);
-  overflow-x: hidden;
+  overflow: hidden;
+}
+.banner .description .condition-section .condition-list-section:nth-of-type(1) {
+  margin-bottom: 8px;
+}
+.banner .description .condition-section ul li a {
+  font-size: 12px;
+  font-weight: 500;
 }
 .banner .description .condition-section .condition-list {
-  width: max-content;
   display: flex;
+  width: max-content;
   animation: infiniteScroll 5s linear infinite;
 }
 .banner .description .condition-section .condition-list li {
   flex-shrink: 0;
   padding-right: 12px;
 }
-.banner .description .condition-section .condition-list li a {
-  font-size: 12px;
-  font-weight: 500;
+.banner .description .condition-section .condition-vertical-list {
+  animation: infiniteVerticalScroll 5s linear infinite;
 }
 @keyframes infiniteScroll {
   0% {transform: translateX(0%);}
   100% {transform: translateX(-50%);}
+}
+@keyframes infiniteVerticalScroll {
+  0% {transform: translateY(0%);}
+  100% {transform: translateY(-50%);}
 }
 .banner .carousel {
   width: 0;
