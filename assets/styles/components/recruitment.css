@@ -1,5 +1,6 @@
 .recruitment {
   margin-top: 150px;
+  position: relative;
 }
 .recruitment .bg-green {
   background-color: var(--color-green_1);
@@ -207,6 +208,12 @@
   padding-top: 96px;
   padding-bottom: 96px;
   border-radius: 16px;
+  position: relative;
+}
+.recruitment .pic-making-bed {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
 }
 .recruitment .highlight-job-section .facility-section > .title {
   color: var(--color-black);
