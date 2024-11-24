@@ -70,8 +70,10 @@
   background-color: var(--color-orange);
 }
 .banner .description .condition-section .condition-list-section {
+  display: flex;
+  align-items: center;
   height: 2em;
-  width: 50%;
+  width: 100%;
   background-color: var(--color-white);
   overflow: hidden;
 }
@@ -84,6 +86,7 @@
 }
 .banner .description .condition-section .condition-list {
   display: flex;
+  flex-shrink: 0;
   width: max-content;
   animation: infiniteScroll 5s linear infinite;
 }
